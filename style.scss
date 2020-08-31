@@ -1,0 +1,43 @@
+
+ @import "header2";
+
+@mixin myFuncion($direcction: row) {
+    display: flex;
+    height: 100vh;
+    flex-direction: $direcction;
+}
+
+
+
+body{
+   @include myFuncion(row);
+    align-items: center;
+    img{/*you can nest*/
+        /*background-color: $backgroundColor;*/
+        padding: 0;
+        &:hover{
+            border: 1px solid black;
+        }
+    }
+}
+#main{
+    background-color: $backgroundColor;
+}
+#main-img{
+    width: 50%;
+    margin: auto;
+}
+#centro{
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+button{
+    width: 80%;
+    margin-bottom: 1em;
+   
+}
+.button2{
+    @extend button;
+    width: 50%;/*overload*/
+
+}

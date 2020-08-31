@@ -1,0 +1,48 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body img {
+  /*you can nest*/
+  /*background-color: $backgroundColor;*/
+  padding: 0;
+}
+
+body img:hover {
+  border: 1px solid black;
+}
+
+#main {
+  background-color: white;
+}
+
+#main-img {
+  width: 50%;
+  margin: auto;
+}
+
+#centro {
+  margin-bottom: 4em;
+  margin-top: 1em;
+}
+
+button, .button2 {
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+.button2 {
+  width: 50%;
+  /*overload*/
+}
+/*# sourceMappingURL=style.css.map */

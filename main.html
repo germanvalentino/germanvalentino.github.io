@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+    <title>Work2Match!</title>
+    <style>
+        body{
+            padding: 1px;
+            margin: auto;
+        }
+       #profile{
+            background-color: darkblue;
+            height: 10em;
+            width: 10em;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            
+       }
+       #profile img{
+           position: absolute;
+           left: 25px;
+           top: 15%;
+           width: 70%;
+           border-radius: 50%;
+
+       }
+       #level
+        {
+            background-color:orange;
+            height: 5em;
+            width: 5em;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            left: -40px;
+       }
+       
+       #level::after{
+           font-weight: bold;
+           content: '';
+            background-color:yellow;
+            height: 4em;
+            width: 4em;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            top: 10%;
+            left:10%;
+
+       }
+       #learn{
+            background-color:red;
+            height: 14rem;
+            width: 14rem;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            font-size: 30px;
+           font-weight: bold;
+           padding: 35px;
+            
+       }
+       #goals{
+           font-size: 30px;
+           font-weight: bold;
+           display: flex;
+            background-color:gray;
+            height: 7rem;
+            width: 7rem;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            justify-content: center;
+            text-align: center;
+            align-content: center;
+            align-items: center;
+            padding: 15px;
+       }
+       #challenge{
+        font-size: 30px;
+           font-weight: bold;
+           display: flex;
+            background-color:green;
+            height: 12rem;
+            width: 12rem;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            padding: 35px;
+            
+       }
+       #find{
+        font-size: 20px;
+           font-weight: bold;
+           display: flex;
+            background-color:lightskyblue;
+            height: 8rem;
+            width: 8rem;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            padding: 20px;
+            
+       }
+
+    </style>
+</head>
+<body>
+   
+
+    <a href="./profile-view.html"><div id="profile"><img src="./mariano.jpg"  alt=""></div></a>
+    <div id="level"></div>
+    <div id="goals">Metas<i class="fa fa-bullseye" style="font-size: 40px;text-align: center;"></i></div>
+    <div id="learn">Aprender<i class="fa fa-eye" style="font-size: 100px;text-align: center;"></i></div>
+    <div id="challenge">Desafiar<i class="fa fa-users" style="font-size: 70px;text-align: center;"></i></div>
+    <div id="find">Encontrar<i class="fa fa-search" style="font-size: 50px;text-align: center;"></i></div>
+    <div id="envelope"><i class="fa fa-envelope" style="font-size: 50px;text-align: right;float: right;"></i></div>
+    
+</body>
+</html>
